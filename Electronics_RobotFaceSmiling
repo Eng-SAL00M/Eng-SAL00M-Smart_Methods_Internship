@@ -1,0 +1,94 @@
+The electronic path task for the 5x5 matrix can be viewed in the link below on Tinkercad:
+"https://www.tinkercad.com/things/cmdyqIzBcbe"
+
+The code for smiley face:
+
+// Defining column and row pin number
+
+int c1 = A4;
+int c2 = A3;
+int c3 = A2;
+int c4 = A1;
+int c5 = A0;
+
+int r1 = 7;
+int r2 = 6;
+int r3 = 5;
+int r4 = 4;
+int r5 = 3;
+
+
+int wait = 250;
+
+// Initialize pin mode 
+
+void setup() {
+  pinMode (c1, OUTPUT);
+  pinMode (c2, OUTPUT);
+  pinMode (c3, OUTPUT);
+  pinMode (c4, OUTPUT);
+  pinMode (c5, OUTPUT);
+  
+  pinMode (r1, OUTPUT);
+  pinMode (r2, OUTPUT);
+  pinMode (r3, OUTPUT);
+  pinMode (r4, OUTPUT);
+  pinMode (r5, OUTPUT);
+}
+
+// Defining loop
+
+void loop() {
+  smile();
+}
+
+// smile function
+
+void smile() {
+  
+  //c1 + c5
+  digitalWrite (r1, LOW);
+  digitalWrite (r2, LOW);
+  digitalWrite (r3, LOW);
+  digitalWrite (r4, HIGH);
+  digitalWrite (r5, LOW);
+  
+  digitalWrite (c1, LOW);
+  digitalWrite (c2, HIGH);
+  digitalWrite (c3, HIGH);
+  digitalWrite (c4, HIGH);
+  digitalWrite (c5, LOW);
+  
+  delay(5);
+  
+  //c2 + c4
+  digitalWrite (r1, HIGH);
+  digitalWrite (r2, HIGH);
+  digitalWrite (r3, LOW);
+  digitalWrite (r4, LOW);
+  digitalWrite (r5, HIGH);
+  
+  digitalWrite (c1, HIGH);
+  digitalWrite (c2, LOW);
+  digitalWrite (c3, HIGH);
+  digitalWrite (c4, LOW);
+  digitalWrite (c5, HIGH);
+  
+  delay(5);
+  
+  //c3
+  digitalWrite (r1, LOW);
+  digitalWrite (r2, LOW);
+  digitalWrite (r3, HIGH);
+  digitalWrite (r4, LOW);
+  digitalWrite (r5, HIGH);
+  
+  digitalWrite (c1, HIGH);
+  digitalWrite (c2, HIGH);
+  digitalWrite (c3, LOW);
+  digitalWrite (c4, HIGH);
+  digitalWrite (c5, HIGH);
+  
+  delay(5);
+}
+
