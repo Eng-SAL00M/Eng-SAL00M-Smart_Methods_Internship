@@ -3,5 +3,5 @@
 "http://wiki.ros.org/noetic/Installation/Ubuntu"
 - After that, we prepare ROS workspace by typing the codes highlighted in,
 "http://wiki.ros.org/catkin/Tutorials/create_a_workspace"
--Finally, we run and control the robot arm in a simulated environment by cloning the packages mentioned at,
+-Finally, we run and control the robot arm in a simulated environment by cloning the packages attached at,
 "https://github.com/smart-methods/arduino_robot_arm"
