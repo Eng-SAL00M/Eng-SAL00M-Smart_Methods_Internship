@@ -1,0 +1,4 @@
+In this task, we created a robot control panel on web page utilizing html and php languages and XAMPP software. 
+A database was created on XAMPP software. 
+By the use of index.html file, the control panel page was formated with four dirction buttons and an extra stop button was addtionally included. 
+connect.php and view.php files were used to make connection between the control panel web page and the database to insert and retrieve data to and from the database. 
