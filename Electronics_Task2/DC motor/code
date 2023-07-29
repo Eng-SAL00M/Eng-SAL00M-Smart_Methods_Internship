@@ -1,0 +1,22 @@
+- The simulation can be found on, 
+"https://www.tinkercad.com/things/2kCL1CRYn0p-mighty-curcan-leelo/editel?tenant=circuits"
+
+
+- The code utilized is as below,
+//
+void setup()
+{
+  pinMode(11, OUTPUT);
+  pinMode(9, OUTPUT);
+
+}
+
+void loop()
+{
+  digitalWrite(11, HIGH);
+  digitalWrite(9, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(11, LOW);
+  digitalWrite(9, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
