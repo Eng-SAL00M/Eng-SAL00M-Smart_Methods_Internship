@@ -1,0 +1,5 @@
+In this task we create the joints for the head movements of the robot.
+Two 3D models of MG996R servos were imported from GrabCad website.
+One was attached with round type horn and the other was attached with U type bracket.
+The one with the U type bracket was mounted on top of the one with round type horn. 
+The servo in the base gives the head of the robot the ability to move right and left, whereas the top servo enables the up and down movement. 
