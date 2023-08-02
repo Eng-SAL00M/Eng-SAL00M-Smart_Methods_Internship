@@ -1,0 +1,3 @@
+In this task we build LED blink circuit utilizing ESP32 controller on wokwi websit. 
+The LED blinks when the word forward is fetched from the website created by the trainer at "https://s-m.com.sa/f.html".
+Otherwise, the LED is off. 
