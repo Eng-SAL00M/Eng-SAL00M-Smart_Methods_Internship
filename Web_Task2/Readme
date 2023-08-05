@@ -1,0 +1,3 @@
+- In this task, a web page is created with four direction buttons and a canvas that displays the robot's movement.
+- The robot movement direction is stored in a database created on the phpMyadmin platform. 
+- Once a button is pressed the movement direction is immediately displayed on the canvas and stored in the database simultaneously.  
