@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+button{
+    width: 22%;
+    height: 40px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color:white;
+    border-width: thin;
+    border-color:initial; 
+}
+#stop{
+    position: relative;
+    margin-top: 3%;
+    border-color: red;
+}
+#left{
+    position: relative;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+#right{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+#backward{
+    position: relative;
+    margin-top: 3%;
+}
+.leftside, .rightside{
+    width: 100%;
+}
+.leftside{
+    margin-top: 6%;
+}
+canvas{
+    border:1px solid grey;
+}
