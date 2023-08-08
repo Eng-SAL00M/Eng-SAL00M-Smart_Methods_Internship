@@ -1,5 +1,5 @@
 - In this task, we utilize TurtleBot3 with SLAM approach to create and save a map.
 - We followed the instructions highlighted on Turtlebot3 web page at: "https://emanual.robotis.com/docs/en/platform/turtlebot3"
-- Initially we launch TurtleBot3 simulation world using Gazebo environment.
-- Then, we started running SLAM Node with Gmapping method. 
+- Initially, we launch TurtleBot3 simulation world using Gazebo environment.
+- Then, we started running SLAM Node with the Gmapping method. 
 - Finally, we run the Teleoperation Node to control the TurtleBot and make the mapping. 
