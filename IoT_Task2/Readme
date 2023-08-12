@@ -1,0 +1,4 @@
+- In this task, we connect two Arduino controllers by the use of UART serial communication. 
+- We connected both the RX and TX pins of Arduino vice versa (first Arduino’s TX pin to another’s RX pin and first Arduino’s RX pin to another’s TX pin) and connected the ground pin of both Arduinos together. 
+- We utilized two different sets of codes one for the sender and the other for the receiver.
+- The simulation can be found at: "https://www.tinkercad.com/things/h3g2CrgkvJf"
